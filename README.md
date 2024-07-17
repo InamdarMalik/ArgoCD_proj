@@ -1,44 +1,3 @@
-Last login: Wed Jul 10 11:53:40 on ttys004
-abdulmalik@192 ArgoCD_proj % cd
-abdulmalik@192 ~ % 
-abdulmalik@192 ~ % cd Documents 
-abdulmalik@192 Documents % 
-abdulmalik@192 Documents % 
-abdulmalik@192 Documents % cd argocd
-abdulmalik@192 argocd % 
-abdulmalik@192 argocd % 
-abdulmalik@192 argocd % ls
-ArgoCD_proj		argocd-app-config
-abdulmalik@192 argocd % 
-abdulmalik@192 argocd % 
-abdulmalik@192 argocd % 
-abdulmalik@192 argocd % cd ArgoCD_proj 
-abdulmalik@192 ArgoCD_proj % 
-abdulmalik@192 ArgoCD_proj % 
-abdulmalik@192 ArgoCD_proj % 
-abdulmalik@192 ArgoCD_proj % ls
-ArgoCD_proj		README.md		application.yaml	dev
-abdulmalik@192 ArgoCD_proj % 
-abdulmalik@192 ArgoCD_proj % 
-abdulmalik@192 ArgoCD_proj % 
-abdulmalik@192 ArgoCD_proj % vi README.md 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Commands
 
 ```bash
@@ -69,11 +28,3 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 * Login to ArgoCD: [https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli](https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli)
 
 * ArgoCD Configuration: [https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/)
-~                                                                                                                                              
-~                                                                                                                                              
-~                                                                                                                                              
-~                                                                                                                                              
-~                                                                                                                                              
-~                                                                                                                                              
-"README.md" 30L, 1330B
-
